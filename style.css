@@ -6,7 +6,7 @@
 
 /* body use */
 body {
-    background-image: url(assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -243,4 +243,109 @@ font-size: 12px;
 .picture p{
 /* margin: 0 5px; */
  margin: 0 5px;
+}
+/* last 2nd section code. */
+.secondLast{
+    width: 740px;
+    height: 530px;
+    margin: 70px auto;
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 25px rgb(197, 190, 190);
+    border-radius: 10px;
+   
+}
+.secondChild{
+    /* border: 2px solid red; */
+    width: 600px;
+    height: 350px;
+    margin:0px auto;
+    padding: 50px 0;
+    /* text-align: center; */
+   
+   
+}
+.secondChild img{
+    /* width: 400px; */
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    /* margin: 50px 0; */
+   
+}
+.secondChild p{
+text-align: center;
+text-transform: capitalize;
+font-size:35px;
+font-weight: 600;
+padding: 15px 0;
+
+}
+.secondChild h6{
+    text-transform: capitalize;
+    text-align: center;
+    /* padding:5px 0; */
+    margin: 5px 0;
+    color: gray;
+    /* padding-top: -40px; */
+}
+.secondChild h4{
+    padding: 8px 10px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    border: none;
+    font-size: 10.5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px auto;
+    width: 120px;
+
+    
+}
+.secondChild h4:hover{
+    background-color: #39D6A8;
+}
+
+/* last */
+.formSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    height: 240px;
+    margin: 0 auto;
+    border: 5px solid red;
+}
+.formSection{
+   /* margin: 300px 0;
+   margin-bottom: 300px; */
+}
+.form label{
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.form input{
+    display: block;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border: none;
+    margin: 10px 0;
+}
+.form textarea{
+    display: block;
+     padding: 10px 20px;
+    background-color: whitesmoke;
+    border: none;
+    margin: 10px 0;
+}
+.formtitle p{
+    font-size: 50px;
+    border: 1px solid black;
+    font-weight: 600;
+    width: 250px;
+    height: 120px;
+
 }
