@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* body use */
-body{
+body {
     background-image: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,6 +13,7 @@ body{
     width: 100%;
     height: 40vh;
 }
+
 /* header code start here. */
 header {
     display: flex;
@@ -72,6 +74,173 @@ nav button:hover {
     cursor: pointer;
     transition: 0.5s;
 }
-.heroArea button:hover{
+
+.heroArea button:hover {
     background-color: #862838;
+}
+
+/* Action section code start here. */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 750px;
+    height: 200px;
+    margin: 30px auto;
+}
+
+.sometitle {
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 150px;
+    text-align: justify;
+}
+
+.sometitle h2 {
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 20px;
+
+}
+
+.sometitle p {
+    margin: 10px 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.sometitle button {
+    padding: 8px 10px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    border: none;
+    font-size: 10.5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px 0;
+}
+
+.sometitle button:hover {
+    background-color: #862838;
+}
+
+.image {
+    width: 205px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* productivety user section start. */
+.productiveSection {
+    background-color: #E5E7FF;
+    width: 750px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.productiveSection h3 {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* border: 2px solid black; */
+}
+.userSection {
+    width: 600px;
+    height: 80px;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.userSection h3 {
+    text-align: center;
+}
+
+.userChild {
+    /* border: 1px solid red; */
+    display: inline-block;
+    text-align: center;
+}
+.userChild h4 {
+    color: #4E47FF;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 5px 0;
+}
+.userChild p {
+    font-size: 12px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+/* feedback section code here. */
+.feedback{
+   /* border: 2px solid red; */
+   width: 720px;
+   height: 200px;
+   margin: 20px auto;
+   
+}
+.feedback h5{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 15px 0;
+
+}
+.cardMain{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.carChild{
+    /* border: 1px solid black; */
+    width: 210px;
+    height: 145px;
+    text-align: justify;
+    padding: 10px;
+   box-shadow: 10px 10px 30px rgb(214, 210, 210);
+   border-radius:5.5px;
+}
+.carChild h6{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+.carChild p{
+margin: 5px 0;
+font-size: 12px;
+}
+.carChild i{
+    color: #e98a1e;
+    font-size: 10px;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    
+}
+.picture img{
+    border-radius: 50%;
+    margin-left: -5px;
+    width: 40px;
+    height: 41px;
+}
+.picture p{
+/* margin: 0 5px; */
+ margin: 0 5px;
 }
